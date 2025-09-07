@@ -1,0 +1,34 @@
+{
+  "garages": [
+    {
+      "id": 1,
+      "nom": "Pluguffan Auto",
+      "adresse": "12 Rue de la Gare, 29700 Pluguffan, France",
+      "telephone": "+33 2 98 12 34 56",
+      "email": "contact@pluguffan-auto.fr",
+      "latitude": 47.975,
+      "longitude": -4.200,
+      "specialites": ["Mécanique générale", "Diagnostic électronique", "Révisions"]
+    },
+    {
+      "id": 2,
+      "nom": "Garage du Centre",
+      "adresse": "45 Avenue de Bretagne, 29000 Quimper, France",
+      "telephone": "+33 2 98 65 43 21",
+      "email": "quimper.centre@garage.fr",
+      "latitude": 47.995,
+      "longitude": -4.096,
+      "specialites": ["Carrosserie", "Peinture", "Entretien rapide"]
+    },
+    {
+      "id": 3,
+      "nom": "Auto Services Bénodet",
+      "adresse": "8 Route de Fouesnant, 29950 Bénodet, France",
+      "telephone": "+33 2 98 57 89 00",
+      "email": "contact@autoservices-benodet.fr",
+      "latitude": 47.874,
+      "longitude": -4.110,
+      "specialites": ["Pneumatiques", "Vidanges", "Climatisation"]
+    }
+  ]
+}
