@@ -1,34 +1,100 @@
 {
   "garages": [
     {
-      "id": 1,
+      "id": "garage_001",
       "nom": "Pluguffan Auto",
       "adresse": "12 Rue de la Gare, 29700 Pluguffan, France",
       "telephone": "+33 2 98 12 34 56",
       "email": "contact@pluguffan-auto.fr",
+      "website": "https://pluguffan-auto.fr",
       "latitude": 47.975,
       "longitude": -4.200,
-      "specialites": ["Mécanique générale", "Diagnostic électronique", "Révisions"]
+      "rating": 4.8,
+      "reviewCount": 156,
+      "specialites": ["Mécanique générale", "Diagnostic électronique", "Révisions", "Moteur", "Transmission"],
+      "isPremium": true,
+      "isVerified": true,
+      "hourlyRateMin": 65,
+      "hourlyRateMax": 85,
+      "photoURL": "https://via.placeholder.com/400x300",
+      "openingHours": {
+        "Lundi": "8:00-12:00, 14:00-18:00",
+        "Mardi": "8:00-12:00, 14:00-18:00",
+        "Mercredi": "8:00-12:00, 14:00-18:00",
+        "Jeudi": "8:00-12:00, 14:00-18:00",
+        "Vendredi": "8:00-12:00, 14:00-18:00",
+        "Samedi": "9:00-12:00",
+        "Dimanche": "Fermé"
+      },
+      "acceptedPayments": ["Espèces", "Carte bancaire", "Chèque"],
+      "promotionalMessage": "10% de réduction pour les utilisateurs CarDiagX - Code: CARDIAG10",
+      "responseTime": "Répond en moins de 2 heures",
+      "certifications": ["Qualité Pro", "Partenaire Bosch"],
+      "codeSpecialties": ["P0420", "P0171", "P0300"]
     },
     {
-      "id": 2,
+      "id": "garage_002",
       "nom": "Garage du Centre",
       "adresse": "45 Avenue de Bretagne, 29000 Quimper, France",
       "telephone": "+33 2 98 65 43 21",
       "email": "quimper.centre@garage.fr",
+      "website": "https://garage-centre-quimper.fr",
       "latitude": 47.995,
       "longitude": -4.096,
-      "specialites": ["Carrosserie", "Peinture", "Entretien rapide"]
+      "rating": 4.5,
+      "reviewCount": 89,
+      "specialites": ["Carrosserie", "Peinture", "Entretien rapide", "Freinage"],
+      "isPremium": false,
+      "isVerified": true,
+      "hourlyRateMin": 55,
+      "hourlyRateMax": 75,
+      "photoURL": "https://via.placeholder.com/400x300",
+      "openingHours": {
+        "Lundi": "8:30-12:00, 14:00-18:30",
+        "Mardi": "8:30-12:00, 14:00-18:30",
+        "Mercredi": "8:30-12:00, 14:00-18:30",
+        "Jeudi": "8:30-12:00, 14:00-18:30",
+        "Vendredi": "8:30-12:00, 14:00-18:30",
+        "Samedi": "Fermé",
+        "Dimanche": "Fermé"
+      },
+      "acceptedPayments": ["Espèces", "Carte bancaire"],
+      "promotionalMessage": null,
+      "responseTime": null,
+      "certifications": ["Qualité Pro"],
+      "codeSpecialties": []
     },
     {
-      "id": 3,
+      "id": "garage_003",
       "nom": "Auto Services Bénodet",
       "adresse": "8 Route de Fouesnant, 29950 Bénodet, France",
       "telephone": "+33 2 98 57 89 00",
       "email": "contact@autoservices-benodet.fr",
+      "website": null,
       "latitude": 47.874,
       "longitude": -4.110,
-      "specialites": ["Pneumatiques", "Vidanges", "Climatisation"]
+      "rating": 4.3,
+      "reviewCount": 67,
+      "specialites": ["Pneumatiques", "Vidanges", "Climatisation", "Échappement"],
+      "isPremium": true,
+      "isVerified": false,
+      "hourlyRateMin": 60,
+      "hourlyRateMax": 80,
+      "photoURL": "https://via.placeholder.com/400x300",
+      "openingHours": {
+        "Lundi": "9:00-12:30, 14:00-19:00",
+        "Mardi": "9:00-12:30, 14:00-19:00",
+        "Mercredi": "9:00-12:30, 14:00-19:00",
+        "Jeudi": "9:00-12:30, 14:00-19:00",
+        "Vendredi": "9:00-12:30, 14:00-19:00",
+        "Samedi": "9:00-13:00",
+        "Dimanche": "Fermé"
+      },
+      "acceptedPayments": ["Espèces", "Carte bancaire", "Chèque", "Virement"],
+      "promotionalMessage": "Première révision offerte pour les nouveaux clients",
+      "responseTime": "Répond en moins de 4 heures",
+      "certifications": [],
+      "codeSpecialties": ["P0420"]
     }
   ]
 }
